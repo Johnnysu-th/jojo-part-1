@@ -1,3 +1,6 @@
+image{
+    width: 100%;
+}
 .hero-image{
     background-image: url(A08CC74A-FA84-4C30-B674-45BF01AD96DC_副本.jpeg);
     background-position: center;
@@ -23,7 +26,10 @@
     font-size: 18px;
     line-height: 1.6;
     font-family: 'Agdasima';
-
-
-   
+}
+.two-column{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
+ 
 }
